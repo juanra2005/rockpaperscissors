@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+
+}
+
+h1 {
+  margin-top: 3rem;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 50%;
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container {
+  max-width: 600px;
+  height: auto;
+  max-height: 745px;
+  margin: auto;
+  background-color: rgba(139, 139, 139, 0.9);
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 22px 70px 4px #000;
+}
+
+.container-two {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.win {
+  align-items: center;
+  margin: 5px;
+  padding-top: 15px;
+}
+
+.container-three span {
+  color: #ff0044;
+}
+
+.container-three P {
+  margin: 5px;
+  padding: 5px;
+  font-size: 40px;
+  margin-top: 5px;
+  padding-top: 5px;
+  color: #ff0000;
+  border-radius: 5px;
+}
+
+
+
+.container-two img {
+  height: 100px;
+  width: 100px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #000000e6;
+  border: groove 4px #000000;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ffffffe6;
+  border: 3px solid black;
+  margin: 5px;
+  cursor: pointer;
+}
+
